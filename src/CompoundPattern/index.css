@@ -1,0 +1,25 @@
+.heads {
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 3px double #121224;
+}
+
+.contentWraper {
+    background-color: #e7e7f1;
+    margin: 0;
+    padding: 20px;
+}
+
+.item {
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.item.active {
+    background-color: salmon;
+    border-radius: 2px;
+}

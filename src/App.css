@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 800px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-radius: 20px;
+}
+
+.theme-light {
+    background-color: aquamarine;
+}
+
+.theme-dark {
+    background-color: salmon;
+}
+
+.theme-light div {
+    font-family: math;
+}
+
+.theme-dark div {
+    font-family: monospace;
+}
